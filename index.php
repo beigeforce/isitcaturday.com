@@ -13,7 +13,10 @@
         return false;
       }
       izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
-<?php include_once("includes/php/functions.php") ?>
+<?php include_once("includes/php/functions.php")
+// function generateCaturdayText($fileName, $defaultText)
+// returns a string, defaulting to $defaultText if not found
+ ?>
       izCaturdayText = "<?php echo generateCaturdayText('izCaturday.txt','yaasssssss'); ?>";
       izNotCaturdayText = "<?php echo generateCaturdayText('izNotCaturday.txt','nope'); ?>";
 
