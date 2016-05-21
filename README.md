@@ -22,7 +22,7 @@ To maximize the speed of the site and optimize server performance, all includes 
 
 ## Credit ##
 
-Code is generate by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
+Code was created by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
 
 ## .htaccess ##
 
