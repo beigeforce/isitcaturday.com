@@ -28,7 +28,6 @@ Code is generate by hailthemelody, with usage of the Cat API http://thecatapi.co
 
 To protect the production site from having git- and server-side-related files visible, create an ".htaccess" file at the root of the production environment and populate with the below code. Blocking server-side-related files is not required, but it helps keeps things clean and tidy on the public-facing site.
 
-### /.htaccess (on production site) ###
 ```apacheconf
 # deny access to git- and server-side-related files:
 RedirectMatch 404 ^/.git/.*$
