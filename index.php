@@ -8,12 +8,14 @@
       <?php 
       include_once("includes/js/functions.js")
       // JAVASCRIPT function isItCaturday()
-      // returns TRUE if today is Caturday. FALSE if not. ?>
-      izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
-      <?php
+      // returns TRUE if today is Caturday. FALSE if not.
+
       include_once("includes/php/functions.php")
       // PHP function generateCaturdayText($fileName, $defaultText)
-      // returns a string, defaulting to $defaultText if not found ?>
+      // returns a string, defaulting to $defaultText if not found
+      ?>
+
+      izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
       izCaturdayText = "<?php echo generateCaturdayText('izCaturday.txt','yaasssssss'); ?>";
       izNotCaturdayText = "<?php echo generateCaturdayText('izNotCaturday.txt','nope'); ?>";
 
