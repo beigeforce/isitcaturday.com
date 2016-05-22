@@ -24,13 +24,19 @@ This repository is primarily to allow contribution towards the random text which
 
 To maximize the speed of the site and optimize server performance, all includes are server-side and the client should only need to access the index.php file. Most browsers will of course look for other files (such as a favicon etc) but nothing can be done to prevent this. 
 
+Since the day of the week (ie - it being Caturday or not) is determined client-side in order to acccount for timezones, both Caturday and non-Caturday text are determined by the server, and chosen by the client via javascript.
+
+To further optimize the speed of the site and minimize file downloads by the client, jquery is intentionally *not* used.
+
+In the event that javascript is disabled, the text 'maybe!' is displayed to the client.
+
 ## Credit ##
 
 Code was created by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
 
 ## .htaccess ##
 
-To protect the production site from having git- and server-side-related files visible, create an ".htaccess" file at the root of the production environment and populate with the below code. Blocking server-side-related files is not required, but it helps keeps things clean and tidy on the public-facing site.
+To protect the production site from having git- and server-side-related files visible, the following ".htaccess" file is used at the root of the production environment,populated with the below code. Blocking server-side-related files is not required, but it helps keeps things clean and tidy on the public-facing site. Just like a cat.
 
 ```apacheconf
 # deny access to git- and server-side-related files:
