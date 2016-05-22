@@ -6,11 +6,11 @@
 
     <script>
       <?php 
-      include_once("includes/js/functions.js")
+      include_once("includes/js/functions.js");
       // JAVASCRIPT function isItCaturday()
       // returns TRUE if today is Caturday. FALSE if not.
 
-      include_once("includes/php/functions.php")
+      include_once("includes/php/functions.php");
       // PHP function generateCaturdayText($fileName, $defaultText)
       // returns a string, defaulting to $defaultText if not found
       ?>
