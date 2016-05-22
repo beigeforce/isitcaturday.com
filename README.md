@@ -10,11 +10,11 @@ This repository is primarily to allow contribution towards the random text which
 
 ### Caturday Text ###
 
-includes/txt/izCaturday.txt
+`/includes/txt/izCaturday.txt
 
 ### Non-Caturday Text ###
 
-includes/txt/izNotCaturday.txt
+`/includes/txt/izNotCaturday.txt
 
 ## Implementation ##
 
