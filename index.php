@@ -5,6 +5,8 @@
   <?php include_once("includes/php/stylesheet_internal.php") ?>
 
     <script>
+      "use strict";
+
       <?php 
       include_once("includes/js/functions.js");
       // JAVASCRIPT function isItCaturday()
@@ -15,9 +17,9 @@
       // returns a string, defaulting to $defaultText if not found
       ?>
 
-      izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
-      izCaturdayText = "<?php echo generateCaturdayText('izCaturday.txt','yaasssssss'); ?>";
-      izNotCaturdayText = "<?php echo generateCaturdayText('izNotCaturday.txt','nope'); ?>";
+      var izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
+      var izCaturdayText = "<?php echo generateCaturdayText('izCaturday.txt','yaasssssss'); ?>";
+      var izNotCaturdayText = "<?php echo generateCaturdayText('izNotCaturday.txt','nope'); ?>";
 
       window.onload = function() {
         if (izCaturday) {
