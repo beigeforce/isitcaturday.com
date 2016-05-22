@@ -12,10 +12,17 @@
   }
   
   body.caturday {
-    background-image: url("https://thecatapi.com/api/images/get?format=src&type=gif&api_key=ODgzMzk");
+    background-image: url("https://thecatapi.com/api/images/get?format=src&type=jpg&api_key=ODgzMzk");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* LARGER DEVICES SHOULD LOAD GIF INSTEAD OF A JPG. THIS SAVES CLIENT-SIDE BANDWIDTH */
+    body.caturday {
+      background-image: url("https://thecatapi.com/api/images/get?format=src&type=gif&api_key=ODgzMzk"); 
+    }
   }
   
   p {
