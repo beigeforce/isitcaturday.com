@@ -30,10 +30,6 @@ To further optimize the speed of the site and minimize file downloads by the cli
 
 In the event that javascript is disabled, the text 'maybe!' is displayed to the client.
 
-## Credit ##
-
-Code was created by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
-
 ## .htaccess ##
 
 To protect the production site from having git- and server-side-related files visible, the following ".htaccess" file is used at the root of the production environment,populated with the below code. Blocking server-side-related files is not required, but it helps keeps things clean and tidy on the public-facing site. Just like a cat.
@@ -49,3 +45,7 @@ RedirectMatch 404 ^/README.md$
 
 * generate favicon which is a question mark using the texture of a cat's tail
 * default to static images for mobile viewports, retaining 'video' for desktops
+
+## Credit ##
+
+Code was created by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
