@@ -2,21 +2,18 @@
 
 <head>
   <title>Is It Caturday??</title>
-<?php include_once("includes/php/stylesheet_internal.php") ?>
+  <?php include_once("includes/php/stylesheet_internal.php") ?>
 
     <script>
-      function isItCaturday() {
-        var d = new Date();
-        if (d.getDay() == 6) { // Caturday
-          return true;
-        }
-        return false;
-      }
+      <?php 
+      include_once("includes/js/functions.js")
+      // JAVASCRIPT function isItCaturday()
+      // returns TRUE if today is Caturday. FALSE if not. ?>
       izCaturday = isItCaturday(); // TRUE if is Caturday (BOO if not)
-<?php include_once("includes/php/functions.php")
-// function generateCaturdayText($fileName, $defaultText)
-// returns a string, defaulting to $defaultText if not found
- ?>
+      <?php
+      include_once("includes/php/functions.php")
+      // PHP function generateCaturdayText($fileName, $defaultText)
+      // returns a string, defaulting to $defaultText if not found ?>
       izCaturdayText = "<?php echo generateCaturdayText('izCaturday.txt','yaasssssss'); ?>";
       izNotCaturdayText = "<?php echo generateCaturdayText('izNotCaturday.txt','nope'); ?>";
 
