@@ -2,17 +2,17 @@
 
 <head>
   <title>Is It Caturday??</title>
-  <?php include_once("includes/php/stylesheet_internal.php") ?>
+  <?php include_once("includes/css/stylesheet_internal-css.php") ?>
 
     <script>
       "use strict";
 
       <?php 
-      include_once("includes/js/functions.js");
+      include_once("includes/js/functions-js.php");
       // JAVASCRIPT function isItCaturday()
       // returns TRUE if today is Caturday. FALSE if not.
 
-      include_once("includes/php/functions.php");
+      include_once("includes/php/functions-php.php");
       // PHP function generateCaturdayText($fileName, $defaultText)
       // returns a string, defaulting to $defaultText if not found
       ?>
@@ -31,7 +31,7 @@
         }
       };
     </script>
-    <?php include_once("includes/php/analyticstracking.php") ?>
+    <?php include_once("includes/php/analyticstracking-php.php") ?>
 </head>
 
 <body>
