@@ -28,13 +28,14 @@ Since the day of the week (ie - it being Caturday or not) is determined client-s
 
 To further optimize the speed of the site and minimize file downloads by the client, jquery is intentionally *not* used.
 
-
-
 ## .htaccess ##
 
 To protect the production site from having git- and server-side-related files visible, the following ".htaccess" file is used at the root of the production environment, populated with the below code. Blocking server-side-related files is not required, but it helps keeps things clean and tidy on the public-facing site. Just like a cat.
 
 ```apacheconf
+# custom 404
+RewriteEngine On
+ErrorDocument 404 /404.php
 # deny access to git- and server-side-related files:
 RedirectMatch 404 ^/.git/.*$
 RedirectMatch 404 ^/includes/.*$
