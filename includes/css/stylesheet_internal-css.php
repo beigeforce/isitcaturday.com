@@ -28,7 +28,7 @@
   p {
     font-family: "Trebuchet MS", verdana, serif;
     color: #333;
-    font-size: 14pt;
+    font-size: 18pt;
     text-transform: uppercase;
     font-weight: bold;
   }
