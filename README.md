@@ -47,6 +47,7 @@ RedirectMatch 404 ^/README.md$
 * generate favicon which is a question mark using the texture of a cat's tail
 * ~~redirect 404's to index page~~
 * ~~default to static images for mobile viewports, retaining 'video' for desktops~~
+* Make Caturday text giant using jquery.fittext.js and slightly pulsate so that jpg/gif beneath is visible
 
 ## Credit ##
 
