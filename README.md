@@ -22,7 +22,7 @@ This repository is primarily to allow contribution towards the random text which
 
 ## Implementation ##
 
-To maximize the speed of the site and optimize server performance, all includes are server-side and the client should only need to access the index.php file. Most browsers will of course look for other files (such as a favicon etc) but nothing can be done to prevent this. 
+To maximize the speed of the site and optimize server network performance, all includes are server-side and the client should only need to access the index.php file. Most browsers will of course look for other files (such as a favicon etc) but nothing can be done to prevent this. 
 
 Since the day of the week (ie - it being Caturday or not) is determined client-side in order to acccount for timezones, both Caturday and non-Caturday text are determined by the server on each pageserve, and chosen by the client via javascript. In the event that javascript is disabled, the text 'maybe!' is displayed to the client.
 
