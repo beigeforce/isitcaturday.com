@@ -51,4 +51,4 @@ RedirectMatch 404 ^/README.md$
 
 ## Credit ##
 
-Code was created by hailthemelody, with usage of the Cat API http://thecatapi.com/ for images/video.
+Code was created by beigeforce (previously known as hailthemelody), with usage of the Cat API http://thecatapi.com/ for images/video.
